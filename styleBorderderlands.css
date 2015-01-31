@@ -46,12 +46,12 @@ background-color: #727071;
 
 .game .image {
     position: absolute;
+    
 }
 
 
 .game .game-title {
     margin-left: 110px;
-    
     
 }
 
@@ -62,7 +62,7 @@ font-size: 18px;
  
 .game {
 border-bottom: 1px solid #434242;
-    
+min-height: 148px;    
 }
 
 .acheivment .imageborderlands {
