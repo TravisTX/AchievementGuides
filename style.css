@@ -13,13 +13,17 @@ padding-right: 20px;
 }
 
 .Consoles li.ps4 {
-   background-color: rebeccapurple;
+   background-color: blue;
 }
 .Consoles li.ps3 {
    background-color: pink;
 }
 .Consoles li.steam {
    background-color: blue;
+}
+
+.Consoles li.atari {
+   background-color: green;
 }
 
 a:link {
