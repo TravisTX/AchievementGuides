@@ -1,0 +1,41 @@
+.Consoles li {
+display: inline;
+padding-left: 20px;
+padding-right: 20px;
+}
+
+.Consoles li.xbox-one {
+   background-color: green;
+}
+
+.Consoles li.xbox-360 {
+   background-color: red;
+}
+
+.Consoles li.ps4 {
+   background-color: rebeccapurple;
+}
+.Consoles li.ps3 {
+   background-color: pink;
+}
+.Consoles li.steam {
+   background-color: blue;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
