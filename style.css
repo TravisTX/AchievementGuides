@@ -7,23 +7,35 @@ padding-right: 20px;
 .Consoles li.xbox-one {
    background-color: green;
 }
+.Consoles li.xbox-one a {
+   color: black;
+}
 
 .Consoles li.xbox-360 {
    background-color: red;
+}
+.Consoles li.xbox-360 a {
+   color: black;
 }
 
 .Consoles li.ps4 {
    background-color: blue;
 }
+.Consoles li.ps4 a {
+   color: black;
+}
 .Consoles li.ps3 {
    background-color: pink;
 }
+.Consoles li.ps3 a {
+   color: black;
+}
+
 .Consoles li.steam {
    background-color: blue;
 }
-
-.Consoles li.atari {
-   background-color: green;
+.Consoles li.steam a {
+   color: black;
 }
 
 a:link {

@@ -12,6 +12,10 @@ background-color: grey;
     z-index: 1;
 }
 
+.game-title p {
+font-size: 18px;
+margin-left: 108px;    
+}
 .game-title h1 {
 font-size: 18px;
 margin-left: 108px;    
@@ -40,7 +44,7 @@ min-height: 110px;
 
 .backHome a  {
     text-decoration: none;
-    color: #FF0000;
+    color: black;
     font-family: Aria,Helvetica,sans-serif;
     font-size:20px;
 }

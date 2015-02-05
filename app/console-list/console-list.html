@@ -1,0 +1,8 @@
+<div ng-controller="ConsoleListController as consoleList">
+    <div class='Consoles'>
+        <ul>
+            <li ng-repeat="console in consoleList.consoles" class="{{console.key}}"><a ui-sref="game-list({consoleKey: console.key})">{{console.displayName}}</a>
+            </li>
+        </ul>
+    </div>
+</div>
