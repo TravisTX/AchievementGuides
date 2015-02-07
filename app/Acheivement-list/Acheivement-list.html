@@ -1,9 +1,8 @@
-<link rel="stylesheet" href="stylexbox360.css">
 
-<div ng-controller="GameListController as gameList">
-    <div class='Games'>
+<div ng-controller="AcheivementListController as AcheivementList">
+    <div class='Acheivement'>
         <ul>
-            <li ng-repeat="game in gameList.Games" class="{{game.key}}"><a ui-sref="game-list({gameKey: game.key})">{{game.displayName}}</a>
+            <li ng-repeat="Acheivement in AcheivementList.Acheivement" class="{{Acheivement.key}}"><a ui-sref="Acheivement({AcheivementKey: Acheivement.key})">{{Acheivement.displayName}}</a>
             </li>
         </ul>
     </div>

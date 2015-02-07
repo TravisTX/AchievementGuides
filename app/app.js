@@ -22,7 +22,7 @@
             .state('game-list', {
                 url: "/game-list/{consoleKey}",
                 templateUrl: "app/game-list/game-list.html"
-            });
+            })
         .state('Acheivement-list', {
                 url: "/Acheivement-list/{gameKey}",
                 templateUrl: "app/Acheivement-list/Acheivement-list.html"

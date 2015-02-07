@@ -1,17 +1,17 @@
 (function () {
-    window.agApp.service('AcheivementListService', Service);
+    window.agApp.service('AcheivementService', Service);
 
     function Service() {
         var service = {
-            GetAcheivement: GetAcheivement
+            GetAcheivementName: GetAcheivementName
         };
         return service;
 
-        function GetAcheivement(gameKey) {
+        function GetAcheivementName(AcheivementKey) {
             return [
                 {
                     key: 'borderlands2',
-                    displayName: 'blahblah'
+                    displayName: 'crap'
                 }
         ]
         }
