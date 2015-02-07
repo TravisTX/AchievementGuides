@@ -1,0 +1,11 @@
+<link rel="stylesheet" href="app/Achievement-list/achievement-list.css">
+
+<div ng-controller="AchievementListController as AchievementList">
+    <div ng-repeat="achievement in AchievementList.achievements" class="achievement" ui-sref="Achievement({achievementId: achievement.achievementId})">
+        <img ng-src="{{achievement.imageUrl}}" />
+        <div class="description">
+            <div class="name">{{achievement.displayName}}</div>
+            <p>{{achievement.description}}</p>
+        </div>
+    </div>
+</div>

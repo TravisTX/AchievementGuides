@@ -1,0 +1,8 @@
+<div ng-controller="AchievementListController as Achievement">
+    <div class='Achievement'>
+        <ul>
+            <li ng-repeat="Achievement in Achievement.Achievement" class="{{Achievement.key}}"><a ui-sref="Achievement({AchievementKey: Achievement.key})">{{Achievement.displayName}}</a>
+            </li>
+        </ul>
+    </div>
+</div>

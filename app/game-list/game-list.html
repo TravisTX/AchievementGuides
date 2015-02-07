@@ -3,7 +3,7 @@
 <div ng-controller="GameListController as gameList">
     <div class='Games'>
         <ul>
-            <li ng-repeat="game in gameList.Games" class="{{game.key}}"><a ui-sref="Acheivement-list({gameKey: game.key})">{{game.displayName}}</a>
+            <li ng-repeat="game in gameList.Games" class="{{game.key}}"><a ui-sref="Achievement-list({gameKey: game.key})">{{game.displayName}}</a>
             </li>
         </ul>
     </div>

@@ -1,0 +1,21 @@
+.achievement {
+    background-color: #eee;
+    min-height: 64px;
+    cursor: pointer;
+}
+
+.achievement img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+}
+
+.achievement .description {
+    position: relative;
+    margin-left: 74px;
+}
+
+.achievement .name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
