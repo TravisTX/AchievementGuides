@@ -6,7 +6,6 @@
     
     function Controller(ConsoleListService) {
         var vm = this;
-        vm.test = "this is a test";
         vm.consoles = [];
         
         Activate();

@@ -4,13 +4,15 @@
     window.agApp.controller('GameListController', Controller);
     
     
-    function Controller($stateParams) {
+    function Controller(GameListService, $stateParams) {
         var vm = this;
         vm.consoleKey = $stateParams.consoleKey;
+        vm.Games=[];
         
         Activate();
         
         function Activate() {
+        vm.Games = GameListService.GetGames(vm.consoleKey);
         }
     }
 
